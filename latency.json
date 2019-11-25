@@ -10,7 +10,7 @@
         }
       },
       "yaxis" : {
-        "title": "latency microseconds",
+        "title": "latency (microseconds)",
         "titlefont": {
           "family": "Courier New, monospace",
           "size": 22,
