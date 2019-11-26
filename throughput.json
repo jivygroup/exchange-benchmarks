@@ -1,22 +1,27 @@
-  {
-    "layout": {
-      "title": "exchange-throughput",
-      "xaxis": {
-        "title": "data samples over time",
-        "titlefont": {
-          "family": "Courier New, monospace",
-          "size": 12,
-          "color": "#7f7f7f"
-        }
-      },
-      "yaxis" : {
-        "title": "throughput messages per secound",
-        "titlefont": {
-          "family": "Courier New, monospace",
-          "size": 22,
-          "color": "#7f7f7f"
-        }
+{
+  "layout" : {
+    "title" : "exchange-throughput",
+    "xaxis" : {
+      "title" : "data samples over time",
+      "titlefont" : {
+        "family" : "Courier New, monospace",
+        "size" : 12,
+        "color" : "#7f7f7f"
       }
     },
-    "traces": []
-  }
+    "yaxis" : {
+      "title" : "throughput messages per secound",
+      "titlefont" : {
+        "family" : "Courier New, monospace",
+        "size" : 22,
+        "color" : "#7f7f7f"
+      }
+    }
+  },
+  "traces" : [ {
+    "name" : "ABC123 [messagesPerSec]",
+    "type" : "scatter",
+    "x" : [ 1 ],
+    "y" : [ 0.0 ]
+  } ]
+}
