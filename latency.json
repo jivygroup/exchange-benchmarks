@@ -1,22 +1,22 @@
-  {
-    "layout": {
-      "title": "exchange-latency",
-      "xaxis": {
-        "title": "data samples over time",
-        "titlefont": {
-          "family": "Courier New, monospace",
-          "size": 12,
-          "color": "#7f7f7f"
-        }
-      },
-      "yaxis" : {
-        "title": "latency (microseconds)",
-        "titlefont": {
-          "family": "Courier New, monospace",
-          "size": 22,
-          "color": "#7f7f7f"
-        }
+{
+  "layout" : {
+    "title" : "exchange-latency",
+    "xaxis" : {
+      "title" : "data samples over time",
+      "titlefont" : {
+        "family" : "Courier New, monospace",
+        "size" : 12,
+        "color" : "#7f7f7f"
       }
     },
-    "traces": []
-  }
+    "yaxis" : {
+      "title" : "latency (microseconds)",
+      "titlefont" : {
+        "family" : "Courier New, monospace",
+        "size" : 22,
+        "color" : "#7f7f7f"
+      }
+    }
+  },
+  "traces" : [ ]
+}
